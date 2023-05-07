@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+
+
+.background{
+  /* background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url('Wallpaper1.png'); */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+img{
+    width: 100%;
+    transition: 100s;
+}
+img.scale{
+    transform: scale(2.5);
+}
